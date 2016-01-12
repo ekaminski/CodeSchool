@@ -1,0 +1,18 @@
+{
+    "contents" : "# Matrices\nmatrix(0, 3, 4)\na <- 1:12\nprint(a)\nmatrix(a, 3, 4)\nplank <- 1:8\ndim(plank) <- c(2, 4) # set dimensions for matrix\nprint(plank)\n# Matrix Access\nplank[2, 3] # retrieve value from second row, third column\nplank[1, 4] <- 0 # change value in matrix\nplank[2,] # retrieve values from a row\nplank[, 4] # retrieve values from a column\nplank[, 2:4] # retrieve values from multiple column\n# Matrix Plotting\nelevation <- matrix(1, 10, 10)\nelevation[4, 6] <- 0\ncontour(elevation) # contour map of values\npersp(elevation) # 3D perspective plot\npersp(elevation, expand = 0.2) # specify view\ncontour(volcano) # premade volcano matrix example\npersp(volcano, expand = 0.2)\nimage(volcano) # heat map",
+    "created" : 1452537777715.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2845373483",
+    "id" : "16348205",
+    "lastKnownWriteTime" : 1452539201,
+    "path" : "~/R/Code School/CodeSchool/CodeSchool/ChapterThree.R",
+    "project_path" : "ChapterThree.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : true,
+    "type" : "r_source"
+}

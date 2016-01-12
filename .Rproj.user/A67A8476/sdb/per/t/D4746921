@@ -1,0 +1,18 @@
+{
+    "contents" : "# Data Frames\ntreasure <- data.frame(weights, prices, types)\nprint(treasure)\n# Data Frame Access\ntreasure[[2]] \ntreasure[[\"weights\"]] \ntreasure$prices # different ways to retrieve a column\ntreasure[[\"types\"]]\n# Loading Data Frames\nlist.files()\ntargets <- read.csv(\"targets.csv\", header = T)\nPort <- targets[[1]]\nPopulation <- targets[[2]]\nWorth <- targets[[3]]\ntargets_df <- data.frame(Port, Population, Worth)\ninfantry <- read.table(\"infantry.txt\", sep = \"\\t\", header = T)\n# Merging Data Frames\nmerge(x = targets, y = infantry)\n",
+    "created" : 1452541122221.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2451065201",
+    "id" : "D4746921",
+    "lastKnownWriteTime" : 1452544552,
+    "path" : "~/R/Code School/CodeSchool/CodeSchool/ChapterSix.R",
+    "project_path" : "ChapterSix.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

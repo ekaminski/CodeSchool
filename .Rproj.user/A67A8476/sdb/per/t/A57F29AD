@@ -1,0 +1,18 @@
+{
+    "contents" : "# Mean\nlimbs <- c(4, 3, 4, 3, 2, 4, 4, 4)\nnames(limbs) <- c('One-Eye', 'Peg-Leg', 'Smitty', 'Hook', 'Scooter', 'Dan', 'Mikey', 'Blackbeard')\nmean(limbs)\nbarplot(limbs)\nabline(h = mean(limbs)) # plots a horizontal line, which represents the mean \n# Median\nlimbs <- c(4, 3, 4, 3, 2, 4, 4, 14)\nnames(limbs) <- c('One-Eye', 'Peg-Leg', 'Smitty', 'Hook', 'Scooter', 'Dan', 'Mikey', 'Davy Jones')\nmean(limbs)\nbarplot(limbs)\nabline(h = mean(limbs))\nmedian(limbs) # mean is misleading in this case\nabline(h = median(limbs))\n# Standard Deviation\npounds <- c(45000, 50000, 35000, 40000, 35000, 45000, 10000, 15000)\nbarplot(pounds)\nmeanValue <- mean(pounds)\nabline(h = meanValue)\ndeviation <- sd(pounds)\nabline(h = meanValue + deviation)\nabline(h = meanValue - deviation) # the standard deviation around the mean",
+    "created" : 1452539240380.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "950800441",
+    "id" : "A57F29AD",
+    "lastKnownWriteTime" : 1452540215,
+    "path" : "~/R/Code School/CodeSchool/CodeSchool/ChapterFour.R",
+    "project_path" : "ChapterFour.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : true,
+    "type" : "r_source"
+}
